@@ -908,7 +908,7 @@ local function LoadGame()
     if getgenv().key ~= "none" then
         if Game == "nico" then
             script_key = key
-            loadstring(game:HttpGet("https://slowpihax.xyz/nico.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Mate00007/loader-changes/main/nico"))()
             task.wait(0.1)
             getgenv().key = nil
         elseif Game == "doors" then
